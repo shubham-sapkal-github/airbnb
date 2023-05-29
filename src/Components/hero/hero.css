@@ -1,0 +1,56 @@
+.hero_img_container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto 2rem auto;
+  padding: 0 3em 0 3em;
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+  flex: 0 0 auto;
+}
+
+.hero_img_container > .col {
+  width: 20%;
+}
+
+.hero_img_container > .col > img {
+  width: 100%;
+}
+
+.col1 {
+  padding-top: 12%;
+}
+
+.col2 {
+  padding-top: 2%;
+}
+
+.col3 {
+  padding-top: 7%;
+}
+
+.col5 {
+  padding-top: 4%;
+}
+
+.img {
+  padding-bottom: 0.4em;
+}
+
+.hero_txt {
+  margin: 2rem 3rem 4rem 3rem;
+}
+
+.hero_txt > h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.25em;
+  line-height: 110%;
+}
+
+.hero_txt > p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 110%;
+}
